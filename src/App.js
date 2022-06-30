@@ -1,24 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import AfterPrev from './components/AfterPrev/AfterPrev';
+import ImgSec from './components/ImgSec/ImgSec';
+import ProcessHome from './components/PrecessHome/ProcessHome';
+import Prev from './components/Prev/Prev';
+import Process from './components/Process/Process';
+import ProcessFooter from './components/ProcessFooter/ProcessFooter';
+import ProcessHomeSec from './components/ProcessHomeSec/ProcessHomeSec';
+import ProccesHomeTh from './components/ProcessHomeTh/ProccesHomeTh';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Prev />
+      <AfterPrev />
+      <ProcessHome />
+      <ProcessHomeSec />
+      <ProccesHomeTh/>
+      <Process/>
+      <ProcessFooter/>
+      <ImgSec/>
+    </>
   );
 }
 
