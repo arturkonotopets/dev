@@ -57,6 +57,9 @@
   background-color: white;
   z-index: 999999;
 }
+.header .header-sm {
+  display: none;
+}
 .header .header__wrapper {
   display: flex;
   justify-content: space-between;
@@ -87,7 +90,7 @@
   color: white;
 }
 
-@media screen and (max-width: 1039px) {
+@media screen and (max-width: 991px) {
   .header .header-sm, .header-transperent .header-sm {
     display: block;
     display: flex;
