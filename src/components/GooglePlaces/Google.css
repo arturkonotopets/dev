@@ -1,0 +1,23 @@
+.address {
+  border-bottom: 2px solid black;
+  width: 200px;
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 5px;
+}
+
+button {
+  width: 200px;
+  border-radius: 50px !important;
+  background-color: rgb(35, 221, 35) !important;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 425px) {
+  .google-block {
+    flex-direction: column;
+  }
+  .google-block button {
+    margin-top: 10px;
+  }
+}/*# sourceMappingURL=Google.css.map */

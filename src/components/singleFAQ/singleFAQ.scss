@@ -1,7 +1,7 @@
 
-.main {
+.mainSingle {
   display: flex;
-  width: 70%;
+  width: 80%;
   @media (max-width: 768px) {
     width: 100%;
     margin-top: 2%;
@@ -31,20 +31,20 @@
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
-  @media (max-width: $screen-sm) {
+  @media (max-width: 768px) {
     padding: 3%;
   }
 }
 
 .answer {
   // padding: 2%;
-  @media (max-width: $screen-sm) {
+  @media (max-width: 768px) {
     // padding: 3%;
   }
   // background-color: $white;
   border-radius: 20px;
 }
 .question {
-  width: 80%;
+  width: 90%;
   font-weight: bold;
 }

@@ -1,0 +1,118 @@
+.site-footer {
+  position: relative;
+  z-index: -2;
+  background-color: #FFFFFF;
+  box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.1);
+  color: #757575;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+}
+.site-footer .footer-top {
+  padding-top: 47px;
+  padding-bottom: 30px;
+}
+.site-footer .footer-top ul > li {
+  margin-bottom: 5px;
+}
+.site-footer .footer-top ul > li:last-child {
+  margin-bottom: 0;
+}
+.site-footer .footer-top ul > li > a {
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.site-footer .footer-top ul > li > a .icon {
+  margin-right: 5px;
+  font-size: 22px;
+  vertical-align: middle;
+}
+.site-footer .footer-top ul > li > a:hover, .site-footer .footer-top ul > li > a:focus {
+  color: #003459;
+  font-weight: 700;
+  text-decoration: none;
+}
+@media (max-width: 767px) {
+  .site-footer .footer-top {
+    padding-top: 23px;
+    padding-bottom: 49px;
+  }
+}
+@media (min-width: 768px) {
+  .site-footer .footer-logo {
+    padding-left: 0;
+  }
+}
+.site-footer .links a {
+  display: block;
+}
+.site-footer .footer-widgets .contact-info {
+  white-space: nowrap;
+}
+@media (min-width: 992px) {
+  .site-footer .footer-widgets .col-1- {
+    padding-right: 5%;
+    padding-left: 0;
+  }
+  .site-footer .footer-widgets .col-2- {
+    padding-right: 0;
+    padding-left: 13%;
+  }
+  .site-footer .footer-widgets .col-3- {
+    padding-right: 0;
+    padding-left: 16.5%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .site-footer .footer-widgets .col-1-,
+.site-footer .footer-widgets .col-2-,
+.site-footer .footer-widgets .col-3- {
+    max-width: 345px;
+    padding: 0;
+  }
+  .site-footer .footer-widgets .col-1-,
+.site-footer .footer-widgets .col-2- {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .site-footer .footer-widgets .col-1- {
+    padding-top: 22px;
+  }
+  .site-footer .footer-widgets .col-1-,
+.site-footer .footer-widgets .col-2- {
+    margin-bottom: 30px;
+  }
+}
+
+.footer-badges {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+@media screen and (max-width: 767px) {
+  .footer-badges {
+    flex-direction: column !important;
+    align-items: start;
+  }
+}
+
+.footer-badges > img {
+  margin-right: 20px;
+}
+
+.footer-copyright {
+  min-height: 40px;
+  background-color: #39B6ED;
+  line-height: 40px;
+  vertical-align: middle;
+}
+.footer-copyright p {
+  padding: 0 10px;
+  margin: 0;
+  color: #FFFFFF;
+  font-size: 12px;
+  line-height: inherit;
+}/*# sourceMappingURL=Footer.css.map */

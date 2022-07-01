@@ -1,20 +1,22 @@
-import React, { useCallback } from 'react';
-import { useModal } from 'modals';
-import styles from './FAQ.css';
+import React from 'react';
+import './FAQ.css';
 import downArrow from '../../assets/new-ui/how-it-works/downarrow.png';
+import SingleFAQ from '../singleFAQ/SingleFAQ';
+import { Button } from 'react-bootstrap';
+import Google from '../GooglePlaces/Google';
 
 const FAQ = () => {
-    const { openModal } = useModal();
+    
 
     return (
     <section className="FAQ-section">
         <div className="container">
             
-            <div className={styles.FAQ}>
+            <div className='FAQ'>
                 <h2 className='faq-title'>Wash & Fold FAQ</h2>
-                <div className={styles.hideondesktop}>
+                <div className='hideondesktop'>
                     <div style={{ height: '2px', width: '100%', backgroundColor: '#80808050' }}></div>
-                    <div className={styles.downContainer}>
+                    <div className='downContainer'>
                         <img src={downArrow} alt="downArrow" />
                     </div>
                 </div>
@@ -64,9 +66,9 @@ const FAQ = () => {
                 }
                 />
             </div>
-            <div className={styles.checkService}>
+            <div className='checkService'>
                 <p style={{ fontSize: 'larger' }}>See if we service your area</p>
-                <GooglePlaces onSubmit={handleSubmit} />
+                <Google/>
             </div>
             {/* <ContactsNew />
             <BadgeContainerNew /> */}
