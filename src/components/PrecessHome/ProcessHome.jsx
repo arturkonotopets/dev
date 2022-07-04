@@ -52,9 +52,9 @@ const ProcessHome = () => {
                    <div className="text">
                         <h2>PICK UP</h2>
                         <p>
-                           You&apos;ll get an <strong>automated confirmation</strong> via <strong>TEXT</strong> to <br />
-                           your cellphone. One of our stellar drivers will drop by <br />
-                           to pick up your order per schedule and proceeds to <br />
+                           You&apos;ll get an <strong>automated confirmation</strong> via <strong>TEXT</strong> to
+                           your cellphone. One of our stellar drivers will drop by
+                           to pick up your order per schedule and proceeds to
                            take to <strong>OUR PROCESSING CENTER.</strong>
                         </p>
                    </div>
