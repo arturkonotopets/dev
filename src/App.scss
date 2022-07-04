@@ -985,6 +985,9 @@ $footer-text-color			:	$grey800;
     }
   }
   @media only screen and (max-width: 991px){
+    .text{
+      margin-top: 55px;
+    }
     .process-section{
       .container{
         .row{
@@ -999,6 +1002,29 @@ $footer-text-color			:	$grey800;
      
       .part6, .part7{
         margin-top: 0;
+      }
+    }
+    .process-I-section {
+      .img-3{
+        background-position: center;
+      }
+      .head-title {
+        padding-bottom: 0px;
+      }
+    }
+    .process-III-section{
+      .col-lg-12 {
+        .title-sec {
+          h1{
+            margin-bottom: 30px;
+          }
+        } 
+      }
+    }
+    .process-footer-section {
+      .text-section{
+        margin-left: 30px;
+        margin-top: 0px;
       }
     }
   }
@@ -1037,7 +1063,7 @@ $footer-text-color			:	$grey800;
       }
     }
     .new-home-content{
-      height: 250px;
+      height: 270px;
       padding: 90px 0;
       background-size: cover;
       .main{
