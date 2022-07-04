@@ -120,25 +120,27 @@ const Process = () => {
                     <div className="img-l-arrow"></div>
                 </div>
                 
-                <div className="col-lg-6">
-                    <div className="img img-5"></div>
-                </div>
-                <div className="col-lg-6">
-                    <div className="text-section">
-                        <span><strong>Part 5</strong></span>
-                        <h1>SHIRT PRESS UNIT</h1>
-                        <p>
-                           The <strong>next step</strong>
-                           in the cleaning process is of course pressing of the items.
-                           This is the <strong>Shirt Press Unit,</strong> where
-                           specially designed to Press laundered shirts.
-                           Although the majority of the work is done using a 
-                           machine, other areas are however done using a different
-                           machine and at times will and with <strong>Hand Press</strong> ironin.
-                           [This makes shirts one of the more complex garments to clean, process and press]. 
-                        </p>
+               <div className="row part5">
+                    <div className="col-lg-6">
+                        <div className="img img-5"></div>
                     </div>
-                </div>
+                    <div className="col-lg-6">
+                        <div className="text-section">
+                            <span><strong>Part 5</strong></span>
+                            <h1>SHIRT PRESS UNIT</h1>
+                            <p>
+                            The <strong>next step</strong>
+                            in the cleaning process is of course pressing of the items.
+                            This is the <strong>Shirt Press Unit,</strong> where
+                            specially designed to Press laundered shirts.
+                            Although the majority of the work is done using a 
+                            machine, other areas are however done using a different
+                            machine and at times will and with <strong>Hand Press</strong> ironin.
+                            [This makes shirts one of the more complex garments to clean, process and press]. 
+                            </p>
+                        </div>
+                    </div>
+               </div>
 
                 <div className="col-lg-12">
                     <div className="img-r-arrow"></div>
@@ -146,63 +148,71 @@ const Process = () => {
                 <div className="col-lg-12">
                     <div className="img-l-arrow"></div>
                 </div>
-
-                <div className="col-lg-6">
-                    <div className="img img-6"></div>
-                </div>
-                <div className="col-lg-6">
-                    <div className="text-section">
-                        <span><strong>Part 6</strong></span>
-                        <h1>SHIRT-COLLAR PRESS UNIT</h1>
-                        <p>
-                            The <strong>final step</strong> in the cleaning <strong>and ironing</strong> process with
-                            shirts is done with this machine to press the collar and sleeves.
-                            After this stage, the shirt is not ready for 
-                            touch-ups and the final stage.
-                        </p>
+                
+                <div className="row part6">
+                    <div className="col-lg-6">
+                        <div className="img img-6"></div>
+                    </div>
+                    <div className="col-lg-6">
+                        <div className="text-section">
+                            <span><strong>Part 6</strong></span>
+                            <h1>SHIRT-COLLAR PRESS UNIT</h1>
+                            <p>
+                                The <strong>final step</strong> in the cleaning <strong>and ironing</strong> process with
+                                shirts is done with this machine to press the collar and sleeves.
+                                After this stage, the shirt is not ready for 
+                                touch-ups and the final stage.
+                            </p>
+                        </div>
                     </div>
                 </div>
-
+                
                 <div className="col-lg-12">
                     <div className="img-r-arrow"></div>
                 </div>
 
-                <div className="col-lg-6">
-                    <div className="img img-7"></div>
-                </div>
-                <div className="col-lg-6 part-4">
-                    <div className="text-section">
-                        <span><strong>Part 7</strong></span>
-                        <h1>LONG GARMENT STEAM PRESS UNIT</h1>
-                        <p>
-                            <strong>Long garments</strong> such as dresses and coats, and others
-                            such as sports coats are <strong>steamed press</strong> using this unit.
-                            Which pushes steam through the cloathes making the 
-                            fibers of the fabric loose and <strong>free of wrinkles.</strong>
-                        </p>
+                <div className="row part7">
+                    <div className="col-lg-6">
+                        <div className="img img-7"></div>
+                    </div>
+                    <div className="col-lg-6 part-4">
+                        <div className="text-section">
+                            <span><strong>Part 7</strong></span>
+                            <h1>LONG GARMENT STEAM PRESS UNIT</h1>
+                            <p>
+                                <strong>Long garments</strong> such as dresses and coats, and others
+                                such as sports coats are <strong>steamed press</strong> using this unit.
+                                Which pushes steam through the cloathes making the 
+                                fibers of the fabric loose and <strong>free of wrinkles.</strong>
+                            </p>
+                        </div>
                     </div>
                 </div>
+                
 
                 <div className="col-lg-12">
                     <div className="img-l-arrow"></div>
                 </div>
 
-                <div className="col-lg-6">
-                    <div className="img img-8"></div>
-                </div>
-                <div className="col-lg-6 part-3">
-                    <div className="text-section">
-                        <span><strong>Part 8</strong></span>
-                        <h1>PRESS UNIT</h1>
-                        <p>
-                            The <strong>Final step</strong> before sorting and bagging is to 
-                            individually press garments.
-                            Specific items such as pants are pressed this way as well 
-                            as other items such as Polo, Sweters, Skirts and bottom
-                            of dress. Are all pressed using the <strong>Press Unit machine.</strong>
-                        </p>
+                <div className="row part8">
+                    <div className="col-lg-6">
+                        <div className="img img-8"></div>
+                    </div>
+                    <div className="col-lg-6 part-3">
+                        <div className="text-section">
+                            <span><strong>Part 8</strong></span>
+                            <h1>PRESS UNIT</h1>
+                            <p>
+                                The <strong>Final step</strong> before sorting and bagging is to 
+                                individually press garments.
+                                Specific items such as pants are pressed this way as well 
+                                as other items such as Polo, Sweters, Skirts and bottom
+                                of dress. Are all pressed using the <strong>Press Unit machine.</strong>
+                            </p>
+                        </div>
                     </div>
                 </div>
+               
             </div>
         </div>
 

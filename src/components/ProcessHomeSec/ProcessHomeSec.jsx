@@ -52,7 +52,7 @@ const ProcessHomeSec = () => {
 
                 <div className="col-lg-6">
                    <div className="text">
-                        <h2>WHO NEEDS AS APP!?</h2>
+                        <h2>WHO NEEDS AN APP!?</h2>
                         <p>
                            Here at WASHMIX we belive in efficiency and <strong>ease of use!</strong>
                            Thus, we do <strong>NOT</strong> have any fancy app or 

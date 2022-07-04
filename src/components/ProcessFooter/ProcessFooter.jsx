@@ -42,7 +42,7 @@ const ProcessFooter = () => {
                 <div className="image img-2"></div>
                 </div>
                 <div className="col-lg-6">
-                    <div className="text text-section">
+                    <div className="text text-section text-section-part2">
                         <span><strong>Part 2</strong></span>
                         <h2>DROP OFF</h2>
                         <p>

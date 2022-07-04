@@ -317,8 +317,8 @@
 }
 
 .new-home-content {
-  height: 970px;
-  padding: 312px 0;
+  height: 935px;
+  padding: 312px 0 0 0;
   background: url("../src/assets/newImages/prew.png") no-repeat;
   background-size: contain;
 }
@@ -326,7 +326,7 @@
   margin: auto;
 }
 .new-home-content .container .title {
-  padding: 0 130px;
+  padding: 0 170px;
   color: #FFF;
   font-size: 46px;
   font-weight: 500;
@@ -336,6 +336,7 @@
 .new-home-content .container .info-1-new {
   color: #FFF;
   font-size: 30px;
+  font-weight: 300;
 }
 .new-home-content .container p {
   padding-top: 30px;
@@ -346,7 +347,7 @@
 
 .afterPrev {
   padding-top: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 .afterPrev .container .bg-image {
   width: 100%;
@@ -357,7 +358,7 @@
 
 .road {
   width: 100%;
-  height: 260px;
+  height: 210px;
 }
 
 .road-section-pc-r {
@@ -455,6 +456,7 @@
   background: url("../src/assets/newImages/cupboard.svg") no-repeat;
 }
 .process-I-section .img-2 {
+  margin-top: 35px;
   background: url("../src/assets/newImages/home.svg") no-repeat;
 }
 .process-I-section .img-3 {
@@ -462,6 +464,19 @@
 }
 .process-I-section .text-l {
   padding-right: 190px;
+}
+.process-I-section .text-l h2 {
+  padding-right: 85px;
+  padding-bottom: 15px;
+}
+.process-I-section .text h2 {
+  font-size: 30px;
+}
+.process-I-section .text p {
+  font-weight: 300;
+}
+.process-I-section .text p strong {
+  font-weight: 600;
 }
 
 .process-II-section {
@@ -472,21 +487,21 @@
   width: 100%;
 }
 .process-II-section .img-1 {
-  height: 60vh;
+  height: 65vh;
   background: url("../src/assets/newImages/schema.svg") no-repeat center;
 }
 .process-II-section .img-2 {
-  height: 100%;
+  height: 50vh;
   background: url("../src/assets/newImages/mobile-cicle.png") no-repeat center;
   background-size: contain;
 }
 .process-II-section .text {
-  padding-right: 89px;
-  margin-top: 20%;
+  padding-right: 70px;
+  margin-top: 35px;
 }
 .process-II-section .text h2 {
   color: #6e6e6e;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 700;
 }
 .process-II-section .text p {
@@ -520,18 +535,26 @@
 .process-III-section .col-lg-12 .title-sec h1 {
   color: #FFF;
   font-size: 50px;
-  font-weight: 600;
+  font-weight: 500;
+}
+.process-III-section .text {
+  margin-top: 80px;
+}
+.process-III-section .text p {
+  font-weight: 200;
+}
+.process-III-section .text p strong {
+  font-weight: 400;
 }
 .process-III-section .img-1 {
-  height: 33vh;
+  height: 300px;
   background: url("../src/assets/newImages/driver.svg") no-repeat center;
   background-size: contain;
 }
 .process-III-section .img-2 {
-  width: 50vw;
   min-width: 340px;
   max-width: 960px;
-  height: 44vh;
+  height: 495px;
   min-height: 200px;
   max-height: 640px;
   background: url("../src/assets/newImages/fabric.png") no-repeat;
@@ -551,7 +574,7 @@
 .process-section .title h1 {
   color: #003459;
   font-size: 50px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .list strong {
@@ -574,6 +597,7 @@
 .process-section .text-section h1 {
   color: #003459;
   font-weight: 600;
+  padding-right: 30px;
 }
 .process-section .part-3 {
   margin-top: 100px;
@@ -588,6 +612,18 @@
   color: #003459;
   font-size: 25px;
   font-weight: 600;
+}
+.process-section .part5 .text-section {
+  margin-top: 60px;
+}
+.process-section .part6 {
+  margin-top: -220px;
+}
+.process-section .part6 .text-section {
+  margin-top: 100px;
+}
+.process-section .part7 {
+  margin-top: -55px;
 }
 .process-section .img-1 {
   background: url("../src/assets/newImages/basic.png") no-repeat center;
@@ -614,7 +650,6 @@
   background-size: contain;
 }
 .process-section .img-6 {
-  margin-top: -90px;
   background: url("../src/assets/newImages/press.svg") no-repeat center;
   background-size: contain;
 }
@@ -629,7 +664,7 @@
 }
 .process-section .img-r-arrow {
   height: 220px;
-  margin-right: 100px;
+  margin-right: 130px;
   background: url("../src/assets/newImages/r-arrow.svg") no-repeat center;
 }
 .process-section .img-l-arrow {
@@ -647,24 +682,35 @@
   margin-top: -105px;
 }
 .process-footer-section .text-section {
-  margin-top: 15%;
+  margin-top: 100px;
   margin-left: 30px;
 }
 .process-footer-section .text-section span {
   color: #39b6ed;
 }
+.process-footer-section .text-section p {
+  padding-right: 115px;
+  font-weight: 300;
+}
+.process-footer-section .text-section p strong {
+  font-weight: 600;
+}
+.process-footer-section .text-section-part2 {
+  margin-top: 20px;
+}
 .process-footer-section .img-1 {
-  height: 50vh;
+  height: 400px;
   background: url("../src/assets/newImages/plastic-bag.png") no-repeat center;
   background-size: contain;
 }
 .process-footer-section .img-2 {
-  height: 50vh;
+  height: 500px;
   background: url("../src/assets/newImages/delivery-man.png") no-repeat center;
   background-size: contain;
 }
 
 .bg-img {
+  margin-top: -2px;
   width: 100%;
   height: 1100px;
   background: url("../src/assets/newImages/footer-img.png") no-repeat;
@@ -805,6 +851,10 @@
     text-align: center;
   }
 
+  .process-III-section .img-2 {
+    height: 270px;
+    background-position: center;
+  }
   .process-III-section .col-lg-12 .title-sec h1 {
     font-size: 30px;
   }
@@ -913,6 +963,11 @@
     text-align: center;
   }
 
+  .process-III-section .img-2 {
+    height: 270px;
+    background-position: center;
+  }
+
   .bg-img {
     height: 360px;
     background-size: contain;
@@ -951,6 +1006,7 @@
 
   .process-III-section .img-2 {
     margin: auto;
+    height: 345px;
   }
 
   .bg-img {
@@ -1013,6 +1069,7 @@
 
   .after-prev {
     padding-top: 0;
+    margin-bottom: 70px;
   }
   .after-prev .container .bg-image {
     height: 525px;
@@ -1046,13 +1103,20 @@
 }
 @media only screen and (min-width: 1040px) and (max-width: 1199px) {
   .new-home-content {
-    height: 105vh;
+    height: 540px;
     padding: 130px 0;
     background-size: cover;
   }
 
   .afterPrev {
     padding-top: 0;
+  }
+
+  .process-I-section .text-l {
+    padding-right: 70px;
+  }
+  .process-I-section .image {
+    height: 400px;
   }
 
   .process-II-section .img-2 {
@@ -1063,6 +1127,12 @@
     margin: auto;
   }
 
+  .process-section .container .row .text-section p {
+    padding-right: 0px;
+  }
+  .process-section .container .row .part-3 {
+    margin-top: 65px;
+  }
   .process-section .container .row .col-lg-12 .img-r-arrow, .process-section .container .row .col-lg-12 .img-l-arrow {
     height: 150px;
   }
@@ -1072,8 +1142,29 @@
     margin-left: -30px;
   }
   .process-section .container .row .col-lg-12 .img-r-arrow {
-    margin-top: -50px;
-    margin-bottom: -60px;
+    margin-top: -30px;
+    margin-bottom: -50px;
+  }
+  .process-section .container .row .img-4 {
+    margin-top: 0;
+  }
+  .process-section .container .row .part5 {
+    margin-top: 40px;
+  }
+  .process-section .container .row .part6 {
+    margin-top: 50px;
+  }
+  .process-section .container .row .part7 {
+    margin-top: 0;
+  }
+  .process-section .container .row .part7 .img-7 {
+    margin-top: 0;
+  }
+  .process-section .container .row .part7 .text-section {
+    padding-top: 65px;
+  }
+  .process-section .container .row .part8 {
+    margin-top: 50px;
   }
 
   .bg-img {
@@ -1084,8 +1175,15 @@
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .new-home-content {
-    height: 122vh;
-    padding: 180px 0;
+    height: 680px;
+    padding: 180px 0 0 0;
+  }
+
+  .after-prev {
+    padding-top: 0;
+  }
+  .after-prev .afterPrev {
+    padding-top: 0;
   }
 
   .bg-img {
@@ -1096,8 +1194,12 @@
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .new-home-content {
-    height: 140vh;
-    padding: 190px 0;
+    height: 780px;
+    padding: 190px 0 0 0;
+  }
+
+  .afterPrev {
+    margin-bottom: 50px;
   }
 
   .bg-img {
@@ -1108,12 +1210,21 @@
 }
 @media only screen and (min-width: 1600px) and (max-width: 1800px) {
   .new-home-content {
-    height: 158vh;
+    height: 875px;
+  }
+
+  .afterPrev {
+    margin-bottom: 50px;
   }
 
   .bg-img {
     height: 1080px;
     background-size: contain;
+  }
+}
+@media only screen and (min-width: 1928px) and (max-width: 2000px) {
+  .new-home-content {
+    height: 105vh;
   }
 }
 @media only screen and (min-width: 2000px) {

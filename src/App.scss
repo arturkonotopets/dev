@@ -539,14 +539,14 @@ $footer-text-color			:	$grey800;
   ////////new design start///////
   .new-home-content{
     //padding-top: 50px;
-    height: 970px;
-    padding: 312px 0;
+    height: 935px;
+    padding: 312px 0 0 0;
     background: url('../src/assets/newImages/prew.png') no-repeat;
     background-size: contain;
     .container{
         margin: auto;
       .title{
-        padding: 0 130px;
+        padding: 0 170px;
         color: #FFF;
         font-size: 46px;
         font-weight: 500;
@@ -556,6 +556,7 @@ $footer-text-color			:	$grey800;
       .info-1-new{
         color: #FFF;
         font-size: 30px;
+        font-weight: 300;
       }
       p{
         padding-top: 30px;
@@ -567,7 +568,7 @@ $footer-text-color			:	$grey800;
   }
   .afterPrev{
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     .container{
       .bg-image{
         width: 100%;
@@ -580,7 +581,7 @@ $footer-text-color			:	$grey800;
   
   .road{
     width: 100%;
-    height: 260px;
+    height: 210px;
   }
   .road-section-pc-r{
     margin-top: -100px;
@@ -667,6 +668,7 @@ $footer-text-color			:	$grey800;
       background: url('../src/assets/newImages/cupboard.svg') no-repeat;
     }
     .img-2{
+      margin-top: 35px;
       background: url('../src/assets/newImages/home.svg') no-repeat;
     }
     .img-3{
@@ -674,6 +676,22 @@ $footer-text-color			:	$grey800;
     }
     .text-l{
       padding-right: 190px;
+      h2{
+        padding-right: 85px;
+        padding-bottom: 15px;
+      }
+      
+    }
+    .text{
+      h2{
+        font-size: 30px;
+      }
+      p{
+        font-weight: 300;
+        strong{
+          font-weight: 600;
+        }
+      }
     }
   }
   
@@ -684,22 +702,22 @@ $footer-text-color			:	$grey800;
       width: 100%;
     }
     .img-1{
-      height: 60vh;
+      height: 65vh;
       background: url('../src/assets/newImages/schema.svg') no-repeat center;
     }
     .img-2{
-      height: 100%;
+      height: 50vh;
       background: url('../src/assets/newImages/mobile-cicle.png') no-repeat center;
       background-size: contain;
     }
   
   
     .text{
-      padding-right: 89px;
-      margin-top: 20%;
+      padding-right: 70px;
+      margin-top: 35px;
       h2{
         color: #6e6e6e;
-        font-size: 35px;
+        font-size: 30px;
         font-weight: 700;
       }
       p{
@@ -740,22 +758,29 @@ $footer-text-color			:	$grey800;
         h1{
           color: #FFF;
           font-size: 50px;
-          font-weight: 600;
+          font-weight: 500;
         }
         
       }
     }
-    
+    .text{
+      margin-top: 80px;
+      p{
+        font-weight: 200;
+        strong{
+          font-weight: 400;
+        }
+      }
+    }
     .img-1{
-      height: 33vh;
+      height: 300px;
       background: url('../src/assets/newImages/driver.svg') no-repeat center;
       background-size: contain;
     }
     .img-2{
-      width: 50vw;
       min-width: 340px;
       max-width: 960px;
-      height: 44vh;
+      height: 495px;
       min-height: 200px;
       max-height: 640px;
       background: url('../src/assets/newImages/fabric.png') no-repeat;
@@ -774,16 +799,18 @@ $footer-text-color			:	$grey800;
       h1{
         color: #003459;
         font-size: 50px;
-        font-weight: 600;
+        font-weight: 500;
       }
     }
   }
+
   .list{
     strong{
       margin-left: 40px;
       line-height: 1.1;
     }
   }
+
   .process-section{
     .img{
       height: 450px;
@@ -799,6 +826,7 @@ $footer-text-color			:	$grey800;
       h1{
         color: #003459;
         font-weight: 600;
+        padding-right: 30px;
       }
     }
     
@@ -825,6 +853,21 @@ $footer-text-color			:	$grey800;
         }
       }
     }
+
+    .part5{
+      .text-section{
+        margin-top: 60px;
+      }
+    }
+    .part6{
+      margin-top: -220px;
+      .text-section{
+        margin-top: 100px;
+      }
+    }
+    .part7{
+      margin-top: -55px;
+    }
     .img-1{
       background: url('../src/assets/newImages/basic.png') no-repeat center;
       background-size: contain;
@@ -850,7 +893,6 @@ $footer-text-color			:	$grey800;
       background-size: contain;
     }
     .img-6{
-      margin-top: -90px;
       background: url('../src/assets/newImages/press.svg') no-repeat center;
       background-size: contain;
     }
@@ -866,7 +908,7 @@ $footer-text-color			:	$grey800;
   
     .img-r-arrow{
       height: 220px;
-      margin-right: 100px;
+      margin-right: 130px;
       background: url('../src/assets/newImages/r-arrow.svg') no-repeat center;
     }
     .img-l-arrow{
@@ -884,25 +926,36 @@ $footer-text-color			:	$grey800;
       margin-top: -105px;
     }
     .text-section{
-      margin-top: 15%;
+      margin-top: 100px;
       margin-left: 30px;
       span{
         color: #39b6ed;
       }
+      p{
+        padding-right: 115px;
+        font-weight: 300;
+        strong{
+          font-weight: 600;
+        }
+      }
+    }
+    .text-section-part2{
+      margin-top: 20px;
     }
     .img-1{
-      height: 50vh;
+      height: 400px;
       background: url('../src/assets/newImages/plastic-bag.png') no-repeat center;
       background-size: contain;
     }
     .img-2{
-      height: 50vh;
+      height: 500px;
       background: url('../src/assets/newImages/delivery-man.png') no-repeat center;
       background-size: contain;
     }
   }
   
   .bg-img{
+    margin-top: -2px;
     width: 100%;
     height: 1100px;
     background: url('../src/assets/newImages/footer-img.png') no-repeat;
@@ -1092,8 +1145,12 @@ $footer-text-color			:	$grey800;
         }
       }
     }
-  
+    
     .process-III-section {
+      .img-2{
+        height: 270px;
+        background-position: center;
+      }
       .col-lg-12 {
         .title-sec {
           h1{
@@ -1229,15 +1286,24 @@ $footer-text-color			:	$grey800;
       }
     }
   
+    .process-III-section {
+      .img-2{
+        height: 270px;
+        background-position: center;
+      }
+    }
+
     .bg-img{
       height: 360px;
       background-size: contain;
     }
+
     .FAQ-section{
       .faq-title{
         font-size: 25px;
       }
     }
+
   }
   @media only screen and (min-width: 600px) and (max-width: 767px) {
     .new-home-content{
@@ -1275,7 +1341,9 @@ $footer-text-color			:	$grey800;
     .process-III-section {
       .img-2{
         margin: auto;
+        height: 345px;
       }
+
     }
     .bg-img{
       height: 460px;
@@ -1353,6 +1421,7 @@ $footer-text-color			:	$grey800;
     }
     .after-prev{
       padding-top: 0;
+      margin-bottom: 70px;
       .container{
         .bg-image{
           height: 525px;
@@ -1397,12 +1466,20 @@ $footer-text-color			:	$grey800;
   }
   @media only screen and (min-width: 1040px) and (max-width: 1199px) {
     .new-home-content{
-      height: 105vh;
+      height: 540px;
       padding: 130px 0;
       background-size: cover;
     }
     .afterPrev{
       padding-top: 0;
+    }
+    .process-I-section {
+      .text-l{
+        padding-right: 70px;
+      }
+      .image {
+        height: 400px;
+      }
     }
     .process-II-section {
       .img-2{
@@ -1417,6 +1494,14 @@ $footer-text-color			:	$grey800;
     .process-section{
       .container{
         .row{
+          .text-section {
+            p{
+              padding-right: 0px;
+            }
+          }
+          .part-3 {
+            margin-top: 65px;
+          }
           .col-lg-12{
             .img-r-arrow, .img-l-arrow{
               height: 150px;
@@ -1427,9 +1512,31 @@ $footer-text-color			:	$grey800;
               margin-left: -30px;
             }
             .img-r-arrow{
-              margin-top: -50px;
-              margin-bottom: -60px;
+              margin-top: -30px;
+              margin-bottom: -50px;
             }
+            
+          }
+          .img-4{
+            margin-top: 0;
+          }
+          .part5{
+            margin-top: 40px
+          }
+          .part6 {
+            margin-top: 50px;
+          }
+          .part7{
+            margin-top: 0;
+            .img-7{
+              margin-top: 0;
+            }
+            .text-section {
+              padding-top: 65px;
+            }
+          }
+          .part8{
+            margin-top: 50px;
           }
         }
       }
@@ -1442,8 +1549,14 @@ $footer-text-color			:	$grey800;
   }
   @media only screen and (min-width: 1200px) and (max-width: 1399px) {
     .new-home-content{
-      height: 122vh;
-      padding: 180px 0;
+      height: 680px;
+      padding: 180px 0 0 0;
+    }
+    .after-prev{
+      padding-top: 0;
+      .afterPrev{
+        padding-top: 0;
+      }
     }
     .bg-img{
       height: 840px;
@@ -1453,8 +1566,11 @@ $footer-text-color			:	$grey800;
   }
   @media only screen and (min-width: 1400px) and (max-width: 1599px) {
     .new-home-content{
-      height: 140vh;
-      padding: 190px 0;
+      height: 780px;
+      padding: 190px 0 0 0;
+    }
+    .afterPrev{
+      margin-bottom: 50px;
     }
     .bg-img{
       height: 960px;
@@ -1464,14 +1580,23 @@ $footer-text-color			:	$grey800;
   }
   @media only screen and (min-width: 1600px) and (max-width: 1800px) {
     .new-home-content{
-      height: 158vh;
+      height: 875px;
+    }
+    .afterPrev{
+      margin-bottom: 50px;
     }
     .bg-img{
       height: 1080px;
       background-size: contain;
     }
   }
-  
+  @media only screen and (min-width: 1928px) and (max-width: 2000px) {
+    .new-home-content{
+      height: 105vh;
+      
+    }
+  }
+
   @media only screen and (min-width: 2000px){
     .new-home-content{
       height: 100vh;

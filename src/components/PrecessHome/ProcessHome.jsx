@@ -14,7 +14,7 @@ const ProcessHome = () => {
                    <div className="text text-l">
                         <h2>The journey STARTS from your closet!</h2>
                         <p>
-                            <strong>Washmix </strong>
+                            <strong>WASHMIX </strong>
                             processes all types all wearable
                             garments; as well as household items.
                             Sweaters, winter clothes, leather and suits to
