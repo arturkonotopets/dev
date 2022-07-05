@@ -20,6 +20,8 @@
 .contacts_list {
   display: flex;
   width: 100%;
+  max-width: 1500px;
+  margin: auto;
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-around;
@@ -43,6 +45,10 @@
   width: 96px;
   max-width: 100%;
   margin: 0 auto 8px;
+}
+
+.phone {
+  width: 46px;
 }
 
 .contacts_itemTitle {

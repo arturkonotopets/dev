@@ -19,14 +19,14 @@ const ContactsNew = () => {
             <img className='contacts_icon' src='../assets/mail.png' alt="email icon" />
             <h3 className='contacts_itemTitle'>Email us</h3>
             <lable className='contacts_link'>
-              email
+              info@WashMix.com
             </lable>
           </div>
           <div className='contacts_item'>
-            <img className='contacts_icon' src='../assets/mail.png' alt="sms icon" />
+            <img className='contacts_icon phone' src='../assets/phone.png' alt="sms icon" />
             <h3 className='contacts_itemTitle'>SMS</h3>
             <lable className='contacts_link'>
-              +00000000
+              415-993-9274
             </lable>
             <div className='contacts_info'>Text the word “Pickup”</div>
           </div>

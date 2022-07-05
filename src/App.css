@@ -319,6 +319,7 @@
 .new-home-content {
   height: 935px;
   padding: 312px 0 0 0;
+  margin-top: -2px;
   background: url("../src/assets/newImages/prew.png") no-repeat;
   background-size: contain;
 }
@@ -445,7 +446,7 @@
 }
 .process-I-section .head-title .title {
   color: #FFF;
-  font-size: 50px;
+  font-size: 46px;
 }
 .process-I-section .image {
   width: 100%;
@@ -534,7 +535,7 @@
 }
 .process-III-section .col-lg-12 .title-sec h1 {
   color: #FFF;
-  font-size: 50px;
+  font-size: 46px;
   font-weight: 500;
 }
 .process-III-section .text {
@@ -573,7 +574,7 @@
 }
 .process-section .title h1 {
   color: #003459;
-  font-size: 50px;
+  font-size: 46px;
   font-weight: 500;
 }
 
@@ -719,7 +720,7 @@
 
 .FAQ-section .faq-title {
   color: #003459;
-  font-size: 50px;
+  font-size: 46px;
   font-weight: 700;
 }
 
@@ -814,17 +815,29 @@
     margin-bottom: 0;
   }
   .process-section .title h1 {
-    font-size: 35px;
+    font-size: 25px;
+  }
+  .process-section .part-4 .text-section h1 span {
+    font-size: 16px;
+    font-weight: 700;
   }
   .process-section .text-section {
     padding-left: 0px;
   }
-  .process-section .text-section h1 {
-    font-size: 20px;
-  }
-  .process-section .text-section p, .process-section .text-section span {
-    padding-right: 0;
+  .process-section .text-section span strong {
     font-size: 16px;
+  }
+  .process-section .text-section h1 {
+    font-size: 16px;
+    padding-right: 0;
+  }
+  .process-section .text-section h1 span {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .process-section .text-section p {
+    padding-right: 0;
+    font-size: 14px;
   }
   .process-section .img {
     height: 350px;
@@ -846,7 +859,8 @@
     margin-top: 20px;
   }
   .process-I-section .row .text h2 {
-    font-size: 20px;
+    font-size: 17px;
+    padding-right: 0;
   }
   .process-I-section .row .text p {
     font-size: 15px;
@@ -871,13 +885,25 @@
   .process-II-section .img-1 {
     height: 25vh;
   }
+  .process-II-section .discription h1 {
+    font-size: 20px;
+  }
+  .process-II-section .discription p {
+    font-size: 16px;
+  }
   .process-II-section .text {
     padding: 0;
     margin: 0;
   }
   .process-II-section .text h2 {
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
+  }
+  .process-II-section .text h3 {
+    font-size: 18px;
+  }
+  .process-II-section .text p {
+    font-size: 16px;
   }
 
   .process-III-section .img-2 {
@@ -885,10 +911,10 @@
     background-position: center;
   }
   .process-III-section .col-lg-12 .title-sec h1 {
-    font-size: 30px;
+    font-size: 25px;
   }
   .process-III-section .text h2 {
-    font-size: 25px;
+    font-size: 20px;
   }
   .process-III-section .text p {
     font-size: 15px;
@@ -912,6 +938,18 @@
   .bg-img {
     height: 260px;
     background-size: contain;
+  }
+
+  .HowItWorks_checkService__1fLi_ {
+    padding: 20px 0;
+  }
+  .HowItWorks_checkService__1fLi_ .GooglePlaces_button__1A92p {
+    margin: auto;
+  }
+
+  .ContactsNew_contacts_header__2OVVR {
+    font-size: 25px;
+    margin-top: 30px;
   }
 
   .FAQ-section .faq-title {
@@ -953,6 +991,7 @@
   }
   .process-I-section .row .text h2 {
     font-size: 20px;
+    padding-right: 0;
   }
   .process-I-section .row .text p {
     font-size: 16px;
@@ -978,6 +1017,12 @@
     height: 150px;
   }
 
+  .process-II-section .discription h1 {
+    font-size: 20px;
+  }
+  .process-II-section .discription p {
+    font-size: 16px;
+  }
   .process-II-section .img-1 {
     height: 25vh;
   }
@@ -989,18 +1034,74 @@
     margin: 0;
   }
   .process-II-section .text h2 {
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
   }
+  .process-II-section .text h3 {
+    font-size: 18px;
+  }
+  .process-II-section .text p {
+    font-size: 16px;
+  }
 
+  .process-III-section .col-lg-12 .title-sec h1 {
+    font-size: 25px;
+  }
+  .process-III-section .text h2 {
+    font-size: 20px;
+  }
+  .process-III-section .text p {
+    font-size: 16px;
+  }
   .process-III-section .img-2 {
     height: 270px;
     background-position: center;
   }
 
+  .process-section .title {
+    margin-bottom: -50px;
+  }
+  .process-section .title h1 {
+    font-size: 25px;
+  }
+  .process-section .part-4 .text-section h1 span {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .process-section .text-section h1 {
+    font-size: 20px;
+  }
+  .process-section .text-section p {
+    font-size: 16px;
+    padding-right: 15px;
+  }
+  .process-section .text-section strong {
+    font-size: 16px;
+  }
+
+  .process-footer-section .text h2 {
+    font-size: 20px;
+  }
+  .process-footer-section .text p {
+    font-size: 16px;
+    padding-right: 0px;
+  }
+
   .bg-img {
     height: 360px;
     background-size: contain;
+  }
+
+  .HowItWorks_checkService__1fLi_ {
+    padding: 20px 0;
+  }
+  .HowItWorks_checkService__1fLi_ .GooglePlaces_button__1A92p {
+    margin: auto;
+  }
+
+  .ContactsNew_contacts_header__2OVVR {
+    font-size: 25px;
+    margin-top: 30px;
   }
 
   .FAQ-section .faq-title {
@@ -1014,7 +1115,8 @@
     background-size: cover;
   }
   .new-home-content .main .info h1 {
-    font-size: 23px;
+    font-size: 25px;
+    padding: 0 75px;
   }
   .new-home-content .main .info .info-1-new {
     font-size: 16px;
@@ -1030,17 +1132,72 @@
     height: 360px;
   }
 
+  .process-I-section .head-title .title {
+    font-size: 35px;
+  }
+  .process-I-section .text h2 {
+    font-size: 25px;
+    padding-right: 0;
+  }
+  .process-I-section .text p {
+    font-size: 20px;
+  }
+  .process-I-section .text-l {
+    padding-right: 0px;
+    margin-top: 10px;
+  }
+  .process-I-section .text-l .head-title .title {
+    font-size: 25px;
+  }
+
+  .process-II-section .text {
+    padding-right: 0;
+  }
   .process-II-section .img-2 {
     height: 65vh;
   }
 
+  .process-III-section .col-lg-12 .title-sec h1 {
+    font-size: 35px;
+  }
+  .process-III-section .text h2 {
+    font-size: 25px;
+  }
+  .process-III-section .text p {
+    font-size: 20px;
+  }
   .process-III-section .img-2 {
     margin: auto;
     height: 345px;
   }
 
+  .process-section .title {
+    margin-bottom: 0;
+  }
+  .process-section .title h1 {
+    font-size: 35px;
+  }
+  .process-section .text-section {
+    padding-left: 0;
+  }
+  .process-section .text-section h1 {
+    font-size: 23px;
+    padding-right: 0;
+  }
+  .process-section .text-section p {
+    font-size: 18px;
+    padding-right: 0px;
+  }
   .process-section .part6 {
     margin-top: 0;
+  }
+
+  .process-footer-section .text-section h2 {
+    font-size: 25px;
+  }
+  .process-footer-section .text-section p {
+    font-size: 20px;
+    padding-right: 0px;
   }
 
   .bg-img {
@@ -1048,8 +1205,20 @@
     background-size: contain;
   }
 
+  .HowItWorks_checkService__1fLi_ {
+    padding: 20px 0;
+  }
+  .HowItWorks_checkService__1fLi_ .GooglePlaces_button__1A92p {
+    margin: auto;
+  }
+
+  .ContactsNew_contacts_header__2OVVR {
+    font-size: 25px;
+    margin-top: 30px;
+  }
+
   .FAQ-section .faq-title {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 899px) {
@@ -1072,21 +1241,71 @@
     height: 400px;
   }
 
+  .process-I-section .head-title .title {
+    font-size: 30px;
+  }
+  .process-I-section .text {
+    padding-right: 0;
+  }
+  .process-I-section .text h2 {
+    font-size: 25px;
+    padding-right: 0;
+  }
+
   .process-II-section .img-2 {
     height: 65vh;
+  }
+  .process-II-section .text h2 {
+    font-size: 30px;
   }
 
   .process-III-section .img-2 {
     margin: auto;
   }
+  .process-III-section .text h2 {
+    font-size: 25px;
+  }
+  .process-III-section .col-lg-12 .title-sec h1 {
+    font-size: 30px;
+  }
 
+  .process-section .title {
+    margin-bottom: 0;
+  }
+  .process-section .title h1 {
+    font-size: 30px;
+  }
+  .process-section .text-section h1 {
+    font-size: 25px;
+  }
   .process-section .part6 {
     margin-top: 0;
+  }
+
+  .process-footer-section .text h2 {
+    font-size: 25px;
   }
 
   .bg-img {
     height: 560px;
     background-size: contain;
+  }
+
+  .HowItWorks_checkService__1fLi_ {
+    padding: 20px 0;
+    flex-direction: column;
+  }
+  .HowItWorks_checkService__1fLi_ .GooglePlaces_button__1A92p {
+    margin: auto;
+  }
+
+  .ContactsNew_contacts_header__2OVVR {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+
+  .FAQ-section .faq-title {
+    font-size: 30px;
   }
 }
 @media only screen and (min-width: 900px) and (max-width: 1039px) {
@@ -1111,6 +1330,10 @@
   }
   .after-prev .container .bg-image {
     height: 525px;
+  }
+
+  .process-I-section .text-l {
+    padding-right: 0px;
   }
 
   .process-II-section .img-2 {
@@ -1140,6 +1363,14 @@
   .bg-img {
     height: 625px;
     background-size: contain;
+  }
+
+  .HowItWorks_checkService__1fLi_ {
+    padding: 20px 0;
+    flex-direction: column;
+  }
+  .HowItWorks_checkService__1fLi_ .GooglePlaces_button__1A92p {
+    margin: auto;
   }
 }
 @media only screen and (min-width: 1040px) and (max-width: 1199px) {
@@ -1208,6 +1439,10 @@
     margin-top: 50px;
   }
 
+  .process-footer-section .text-section p {
+    padding-right: 0;
+  }
+
   .bg-img {
     height: 720px;
     margin-top: -2px;
@@ -1265,7 +1500,7 @@
 }
 @media only screen and (min-width: 1928px) and (max-width: 2000px) {
   .new-home-content {
-    height: 105vh;
+    height: 970px;
   }
 }
 @media only screen and (min-width: 2000px) {

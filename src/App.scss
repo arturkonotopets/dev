@@ -541,6 +541,7 @@ $footer-text-color			:	$grey800;
     //padding-top: 50px;
     height: 935px;
     padding: 312px 0 0 0;
+    margin-top: -2px;
     background: url('../src/assets/newImages/prew.png') no-repeat;
     background-size: contain;
     .container{
@@ -656,7 +657,7 @@ $footer-text-color			:	$grey800;
       text-align: center;
       .title{
         color: #FFF;
-        font-size: 50px;
+        font-size: 46px;
       }
     }
     .image{
@@ -757,7 +758,7 @@ $footer-text-color			:	$grey800;
         text-align: center;
         h1{
           color: #FFF;
-          font-size: 50px;
+          font-size: 46px;
           font-weight: 500;
         }
         
@@ -798,7 +799,7 @@ $footer-text-color			:	$grey800;
       text-align: center;
       h1{
         color: #003459;
-        font-size: 50px;
+        font-size: 46px;
         font-weight: 500;
       }
     }
@@ -965,7 +966,7 @@ $footer-text-color			:	$grey800;
   .FAQ-section{
     .faq-title{
       color: #003459;
-      font-size: 50px;
+      font-size: 46px;
       font-weight: 700;
     }
   }
@@ -984,6 +985,8 @@ $footer-text-color			:	$grey800;
       }
     }
   }
+
+
   @media only screen and (max-width: 991px){
     .text{
       margin-top: 55px;
@@ -999,11 +1002,12 @@ $footer-text-color			:	$grey800;
           }
         }
       }
-     
+  
       .part6, .part7{
         margin-top: 0;
       }
     }
+  
     .process-I-section {
       .img-3{
         background-position: center;
@@ -1018,7 +1022,7 @@ $footer-text-color			:	$grey800;
           h1{
             margin-bottom: 30px;
           }
-        } 
+        }
       }
     }
     .process-footer-section {
@@ -1032,7 +1036,7 @@ $footer-text-color			:	$grey800;
     .process-section{
       .container{
         .row{
-          
+  
           .part-3, .img-3, .img-4, .img-6, .img-7{
             margin-top: 0;
           }
@@ -1040,7 +1044,7 @@ $footer-text-color			:	$grey800;
             margin-top: 50px;
             margin-bottom: 30px;
           }
-          
+  
         }
       }
     }
@@ -1101,17 +1105,37 @@ $footer-text-color			:	$grey800;
       .title{
         margin-bottom: 0;
         h1{
-          font-size: 35px;
+          font-size: 25px;
+        }
+      }
+      .part-4{
+        .text-section{
+          h1{
+            span{
+              font-size: 16px;
+              font-weight: 700;
+            }
+          }
         }
       }
       .text-section{
         padding-left: 0px;
-        h1{
-          font-size: 20px;
+        span{
+          strong{
+            font-size: 16px;
+          }
         }
-        p, span{
-          padding-right: 0;
+        h1{
           font-size: 16px;
+          padding-right: 0;
+          span{
+            font-size: 16px;
+            font-weight: 700;
+          }
+        }
+        p{
+          padding-right: 0;
+          font-size: 14px;
         }
       }
       .img {
@@ -1138,7 +1162,8 @@ $footer-text-color			:	$grey800;
         .text{
           margin-top: 20px;
           h2{
-            font-size: 20px;
+            font-size: 17px;
+            padding-right: 0;
           }
           p{
             font-size: 15px;
@@ -1168,16 +1193,30 @@ $footer-text-color			:	$grey800;
       .img-1{
         height: 25vh;
       }
+      .discription{
+        h1{
+          font-size: 20px;
+        }
+        p{
+          font-size: 16px;
+        }
+      }
       .text{
         padding: 0;
         margin: 0;
         h2{
-          font-size: 25px;
+          font-size: 20px;
           text-align: center;
+        }
+        h3{
+          font-size: 18px;
+        }
+        p{
+          font-size: 16px;
         }
       }
     }
-    
+  
     .process-III-section {
       .img-2{
         height: 270px;
@@ -1186,13 +1225,13 @@ $footer-text-color			:	$grey800;
       .col-lg-12 {
         .title-sec {
           h1{
-            font-size: 30px;
+            font-size: 25px;
           }
         }
       }
       .text{
         h2{
-          font-size: 25px;
+          font-size: 20px;
         }
         p{
           font-size: 15px;
@@ -1220,6 +1259,18 @@ $footer-text-color			:	$grey800;
     .bg-img{
       height: 260px;
       background-size: contain;
+    }
+  
+    .HowItWorks_checkService__1fLi_{
+      padding: 20px 0;
+      .GooglePlaces_button__1A92p{
+        margin: auto;
+      }
+    }
+  
+    .ContactsNew_contacts_header__2OVVR {
+      font-size: 25px;
+      margin-top: 30px
     }
   
     .FAQ-section{
@@ -1271,6 +1322,7 @@ $footer-text-color			:	$grey800;
           margin-top: 40px;
           h2{
             font-size: 20px;
+            padding-right: 0;
           }
           p{
             font-size: 16px;
@@ -1303,6 +1355,14 @@ $footer-text-color			:	$grey800;
     }
   
     .process-II-section {
+      .discription  {
+        h1{
+          font-size: 20px;
+        }
+        p {
+          font-size: 16px;
+        }
+      }
       .img-1{
         height: 25vh;
       }
@@ -1313,30 +1373,106 @@ $footer-text-color			:	$grey800;
         padding: 0;
         margin: 0;
         h2{
-          font-size: 25px;
+          font-size: 20px;
           text-align: center;
+        }
+        h3{
+          font-size: 18px;
+        }
+        p{
+          font-size: 16px;
         }
       }
     }
   
     .process-III-section {
+  
+      .col-lg-12 {
+        .title-sec {
+          h1 {
+            font-size: 25px;
+          }
+        }
+      }
+      .text{
+        h2{
+          font-size: 20px;
+        }
+        p{
+          font-size: 16px;
+        }
+      }
       .img-2{
         height: 270px;
         background-position: center;
       }
     }
-
+  
+    .process-section {
+      .title {
+        margin-bottom: -50px;
+        h1 {
+          font-size: 25px;
+        }
+      }
+      .part-4{
+        .text-section {
+          h1{
+            span{
+              font-size: 20px;
+              font-weight: 700;
+            }
+          }
+        }
+      }
+      .text-section{
+        h1{
+          font-size: 20px;
+        }
+        p{
+          font-size: 16px;
+          padding-right: 15px;
+        }
+        strong{
+          font-size: 16px;
+        }
+      }
+    }
+  
+    .process-footer-section{
+      .text{
+        h2{
+          font-size: 20px;
+        }
+        p{
+          font-size: 16px;
+          padding-right: 0px
+        }
+      }
+    }
     .bg-img{
       height: 360px;
       background-size: contain;
     }
-
+  
+    .HowItWorks_checkService__1fLi_{
+      padding: 20px 0;
+      .GooglePlaces_button__1A92p{
+        margin: auto;
+      }
+    }
+  
+    .ContactsNew_contacts_header__2OVVR {
+      font-size: 25px;
+      margin-top: 30px
+    }
+  
     .FAQ-section{
       .faq-title{
         font-size: 25px;
       }
     }
-
+  
   }
   @media only screen and (min-width: 600px) and (max-width: 767px) {
     .new-home-content{
@@ -1346,7 +1482,8 @@ $footer-text-color			:	$grey800;
       .main{
         .info{
           h1{
-            font-size: 23px;
+            font-size: 25px;
+            padding: 0 75px;
           }
           .info-1-new{
             font-size: 16px;
@@ -1365,31 +1502,111 @@ $footer-text-color			:	$grey800;
         }
       }
     }
-  
+    .process-I-section {
+      .head-title {
+        .title {
+          font-size: 35px;
+        }
+      }
+      .text{
+        h2{
+          font-size: 25px;
+          padding-right: 0;
+        }
+        p{
+          font-size: 20px;
+        }
+      }
+      .text-l{
+        padding-right: 0px;
+        margin-top: 10px;
+        .head-title {
+          .title {
+            font-size: 25px;
+          }
+        }
+      }
+    }
     .process-II-section {
+      .text{
+        padding-right: 0;
+      }
       .img-2{
         height: 65vh;
       }
     }
     .process-III-section {
+      .col-lg-12 {
+        .title-sec {
+          h1 {
+            font-size: 35px;
+          }
+        }
+      }
+      .text{
+        h2{
+          font-size: 25px;
+        }
+        p{
+          font-size: 20px;
+        }
+      }
       .img-2{
         margin: auto;
         height: 345px;
       }
-
+  
     }
     .process-section{
+      .title{
+        margin-bottom: 0;
+        h1{
+          font-size: 35px;
+        }
+      }
+      .text-section{
+        padding-left: 0;
+        h1{
+          font-size: 23px;
+          padding-right: 0;
+        }
+        p{
+          font-size: 18px;
+          padding-right: 0px;
+        }
+      }
       .part6{
         margin-top: 0;
+      }
+    }
+    .process-footer-section{
+      .text-section {
+        h2{
+          font-size: 25px;
+        }
+        p {
+          font-size: 20px;
+          padding-right: 0px;
+        }
       }
     }
     .bg-img{
       height: 460px;
       background-size: contain;
     }
+    .HowItWorks_checkService__1fLi_{
+      padding: 20px 0;
+      .GooglePlaces_button__1A92p{
+        margin: auto;
+      }
+    }
+    .ContactsNew_contacts_header__2OVVR {
+      font-size: 25px;
+      margin-top: 30px
+    }
     .FAQ-section{
       .faq-title{
-        font-size: 30px;
+        font-size: 25px;
       }
     }
   }
@@ -1420,25 +1637,89 @@ $footer-text-color			:	$grey800;
         }
       }
     }
-  
+    .process-I-section {
+      .head-title {
+        .title {
+          font-size: 30px;
+        }
+      }
+      .text{
+        padding-right: 0;
+        h2{
+          font-size: 25px;
+          padding-right: 0;
+        }
+      }
+    }
     .process-II-section {
       .img-2{
         height: 65vh;
+      }
+      .text{
+        h2{
+          font-size: 30px;
+        }
       }
     }
     .process-III-section {
       .img-2{
         margin: auto;
       }
+      .text{
+        h2{
+          font-size: 25px;
+        }
+      }
+      .col-lg-12 {
+        .title-sec {
+          h1 {
+            font-size: 30px;
+          }
+        }
+      }
     }
     .process-section{
+      .title{
+        margin-bottom: 0;
+        h1{
+          font-size: 30px;
+        }
+      }
+      .text-section{
+        h1{
+          font-size: 25px;
+        }
+      }
       .part6{
         margin-top: 0;
+      }
+    }
+    .process-footer-section{
+      .text{
+        h2{
+          font-size: 25px;
+        }
       }
     }
     .bg-img{
       height: 560px;
       background-size: contain;
+    }
+    .HowItWorks_checkService__1fLi_{
+      padding: 20px 0;
+      flex-direction: column;
+      .GooglePlaces_button__1A92p{
+        margin: auto;
+      }
+    }
+    .ContactsNew_contacts_header__2OVVR {
+      font-size: 30px;
+      margin-top: 30px
+    }
+    .FAQ-section{
+      .faq-title{
+        font-size: 30px;
+      }
     }
   }
   @media only screen and (min-width: 900px) and (max-width: 1039px) {
@@ -1470,7 +1751,11 @@ $footer-text-color			:	$grey800;
         }
       }
     }
-  
+    .process-I-section {
+      .text-l{
+        padding-right: 0px;
+      }
+    }
     .process-II-section {
       .img-2{
         height: 65vh;
@@ -1498,9 +1783,9 @@ $footer-text-color			:	$grey800;
               margin-bottom: -60px;
             }
           }
-          
+  
         }
-        
+  
       }
       .part6{
         margin-top: 0;
@@ -1509,6 +1794,13 @@ $footer-text-color			:	$grey800;
     .bg-img{
       height: 625px;
       background-size: contain;
+    }
+    .HowItWorks_checkService__1fLi_{
+      padding: 20px 0;
+      flex-direction: column;
+      .GooglePlaces_button__1A92p{
+        margin: auto;
+      }
     }
   }
   @media only screen and (min-width: 1040px) and (max-width: 1199px) {
@@ -1562,7 +1854,7 @@ $footer-text-color			:	$grey800;
               margin-top: -30px;
               margin-bottom: -50px;
             }
-            
+  
           }
           .img-4{
             margin-top: 0;
@@ -1585,6 +1877,13 @@ $footer-text-color			:	$grey800;
           .part8{
             margin-top: 50px;
           }
+        }
+      }
+    }
+    .process-footer-section{
+      .text-section{
+        p{
+          padding-right: 0;
         }
       }
     }
@@ -1639,11 +1938,10 @@ $footer-text-color			:	$grey800;
   }
   @media only screen and (min-width: 1928px) and (max-width: 2000px) {
     .new-home-content{
-      height: 105vh;
-      
+      height: 970px;
     }
   }
-
+  
   @media only screen and (min-width: 2000px){
     .new-home-content{
       height: 100vh;
